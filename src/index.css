@@ -6,11 +6,12 @@
 
 body {
   font-family: "Press Start 2p", cursive;
-  background: rgb(2, 162, 152);
+  background: rgb(223, 255, 253);
+  /* background: rgb(2, 162, 152); */
   background: linear-gradient(
     90deg,
-    rgb(25, 216, 204) 0%,
-    rgba(33, 246, 233, 1) 100%
+    rgb(253, 218, 241) 0%,
+    rgb(204, 216, 252) 100%
   );
 }
 
@@ -28,8 +29,8 @@ button {
   font-size: 1rem;
   border: 3px solid black;
   padding: 0.5rem 1rem;
-  background-color: rgba(252, 124, 124, 0.75);
-  box-shadow: inset -3px -3px 0 0 rgb(252, 124, 124);
+  background-color: rgba(255, 219, 244, 0.75);
+  box-shadow: inset -3px -3px 0 0 rgba(124, 113, 239, 0.75);
   transition: all 0.1s ease-in;
   margin: 1rem;
   cursor: pointer;
